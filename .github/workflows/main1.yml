@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Expense-Track-App Deploy to Surge
+name: Covid19-Tracker Deploy to Surge
 
 # Controls when the action will run. 
 on:
@@ -39,4 +39,4 @@ jobs:
         run: npm install --global surge
 
       - name: Deploy to Surge
-        run: surge ./build http://project1-expense-tracker-basitali.surge.sh/  --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build http://project2-covid19-tracker-basitali.surge.sh/  --token ${{ secrets.SURGE_TOKEN }}
